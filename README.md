@@ -14,7 +14,7 @@ run_analysis.R executes the following tasks:
 - Joins activity data to core sensor data sets
 - Adds source indicator to distinguish between the two sets if needed later
 - Combines both test and training data sets into a single data frame
-- Filters columns to only include anything means and standard deviations.
+- Filters columns to only include means and standard deviations.
 
 Concatenations are done using cbind or rbind, and joins are done using the join() function from the dplyr package.
 Filter is done using SQL-style %like% or %in% commands.
